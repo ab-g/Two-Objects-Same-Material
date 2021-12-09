@@ -1,5 +1,21 @@
 {
   "@class": "ResourcePack",
+  "animations": {
+    "@class": "StdResourceMapAnimation",
+    "map": [
+      {
+        "key": {
+          "uuid": "B7ADD65A-0857-4688-B0F4-A2A99709559F"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "B7ADD65A-0857-4688-B0F4-A2A99709559F"
+          }
+        }
+      }
+    ]
+  },
   "cameras": {
     "@class": "StdResourceMapCamera",
     "map": [
@@ -65,6 +81,17 @@
             "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
           }
         }
+      },
+      {
+        "key": {
+          "uuid": "58957957-1DA6-4255-878B-DD7A90D32A70"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "58957957-1DA6-4255-878B-DD7A90D32A70"
+          }
+        }
       }
     ]
   },
@@ -79,6 +106,17 @@
           "@class": "Mesh",
           "id": {
             "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "7A71EE6A-CF50-4536-8D45-4119A4979408"
+        },
+        "value": {
+          "@class": "ConeMesh",
+          "id": {
+            "uuid": "7A71EE6A-CF50-4536-8D45-4119A4979408"
           }
         }
       }
@@ -115,14 +153,6 @@
         }
       }
     ]
-  },
-  "skinControllers": {
-    "@class": "StdResourceMapSkinController",
-    "map": []
-  },
-  "soundSamples": {
-    "@class": "StdResourceMapSoundSample",
-    "map": []
   },
   "textures2d": {
     "@class": "StdResourceMapTexture2D",

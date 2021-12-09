@@ -1,0 +1,61 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "B411012D-9D18-4F72-A5A5-DD6DB8CACACA"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": false,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "E110873B-CA52-46B6-A285-26411B71FB5C"
+        },
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "C8F516D1-7430-463D-9B03-938CEE8F7682"
+          },
+          "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 3,
+            "name": "Cylinder"
+          }
+        },
+        "animation": {
+          "uuid": "B7ADD65A-0857-4688-B0F4-A2A99709559F"
+        },
+        "AnimationType": "object3D",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "@class": "KeyTrigger",
+      "id": {
+        "uuid": "3D83C36F-CDB5-48FC-92ED-676B79922190"
+      },
+      "ownerScriptId": {
+        "uuid": "B411012D-9D18-4F72-A5A5-DD6DB8CACACA"
+      },
+      "logicOperation": 0,
+      "resultType": 0,
+      "isInverted": false,
+      "keyCode": 32,
+      "state": 2
+    }
+  ]
+}

@@ -48,7 +48,9 @@
       "children": [
         "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5",
         "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9",
-        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2",
+        "C8F516D1-7430-463D-9B03-938CEE8F7682",
+        "94063F50-6DBE-4172-B1AA-34B047BCA899"
       ]
     },
     {
@@ -224,6 +226,170 @@
       },
       "is_asset_root": true,
       "asset_name": "Floor_200x200"
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "C8F516D1-7430-463D-9B03-938CEE8F7682"
+        },
+        "name": "Cylinder 1",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "7A71EE6A-CF50-4536-8D45-4119A4979408"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "58957957-1DA6-4255-878B-DD7A90D32A70"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              3,
+              0,
+              0,
+              0,
+              0,
+              -1.1920930376163597e-07,
+              1,
+              0,
+              0,
+              -3,
+              -3.576279254957626e-07,
+              0,
+              -2,
+              4,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      },
+      "children": [
+        "29A5829A-238F-4676-8F37-75E00DF41156"
+      ]
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "29A5829A-238F-4676-8F37-75E00DF41156"
+        },
+        "name": "GreenColor - SPACE",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "B411012D-9D18-4F72-A5A5-DD6DB8CACACA"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "94063F50-6DBE-4172-B1AA-34B047BCA899"
+        },
+        "name": "Cylinder 2",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "7A71EE6A-CF50-4536-8D45-4119A4979408"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "58957957-1DA6-4255-878B-DD7A90D32A70"
+          },
+          "mapsStates": 0
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              3,
+              0,
+              0,
+              0,
+              0,
+              -1.1920930376163597e-07,
+              1,
+              0,
+              0,
+              -3,
+              -3.576279254957626e-07,
+              0,
+              2,
+              4,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
     }
   ],
   "scriptSystem": {
@@ -257,6 +423,12 @@
         "@class": "Script_PostFX",
         "id": {
           "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "B411012D-9D18-4F72-A5A5-DD6DB8CACACA"
         }
       }
     ]

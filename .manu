@@ -1,4 +1,6 @@
 {
+    "B411012D-9D18-4F72-A5A5-DD6DB8CACACA/SelectedTimelineObject": "0 0 ",
+    "B411012D-9D18-4F72-A5A5-DD6DB8CACACA/UnfoldedTimelineNodes/E110873B-CA52-46B6-A285-26411B71FB5C": "Cylinder",
     "Camera/Position/X": 4.319224834442139,
     "Camera/Position/Y": 2.9931468963623047,
     "Camera/Position/Z": 5.981563091278076,
@@ -14,5 +16,5 @@
     "SnapTypeRotation/SnapPreset1": 45,
     "SnapTypeRotation/SnapPreset2": 90,
     "SnapTypeRotation/SnapPresetSelected": 0,
-    "export/projectName": "New-Project-without-Character"
+    "export/projectName": "Two-Objects-Same-Material"
 }
