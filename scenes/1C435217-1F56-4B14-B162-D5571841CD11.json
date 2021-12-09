@@ -284,7 +284,8 @@
         }
       },
       "children": [
-        "29A5829A-238F-4676-8F37-75E00DF41156"
+        "29A5829A-238F-4676-8F37-75E00DF41156",
+        "86488C28-5CED-42BC-925B-7D4365B04975"
       ]
     },
     {
@@ -302,6 +303,53 @@
           "@class": "BaseComponentTimeline",
           "timelineId": {
             "uuid": "B411012D-9D18-4F72-A5A5-DD6DB8CACACA"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "86488C28-5CED-42BC-925B-7D4365B04975"
+        },
+        "name": "Rotate",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "5CC39EC9-3D62-4AF9-A2EF-C702D5DFA682"
           }
         },
         "transform": {
@@ -389,6 +437,56 @@
           "importedName": "",
           "isBone": false
         }
+      },
+      "children": [
+        "805DB56D-D20A-48CE-95C7-204F7A608E52"
+      ]
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "805DB56D-D20A-48CE-95C7-204F7A608E52"
+        },
+        "name": "Rotate",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "B4DB1C69-464C-4273-8573-CD6ECE8BED33"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              -3.552713678800501e-15,
+              0,
+              0,
+              2.842170943040401e-14,
+              1,
+              0,
+              -1.3333333730697632,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
       }
     }
   ],
@@ -429,6 +527,18 @@
         "@class": "TimeLineScript",
         "id": {
           "uuid": "B411012D-9D18-4F72-A5A5-DD6DB8CACACA"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "5CC39EC9-3D62-4AF9-A2EF-C702D5DFA682"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "B4DB1C69-464C-4273-8573-CD6ECE8BED33"
         }
       }
     ]

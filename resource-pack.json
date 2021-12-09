@@ -5,6 +5,28 @@
     "map": [
       {
         "key": {
+          "uuid": "4D7766DC-A6CA-4452-BC9B-6A517E9291A7"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "4D7766DC-A6CA-4452-BC9B-6A517E9291A7"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "5C4786B7-3D3B-4B3A-97BE-1D787A0D80EC"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "5C4786B7-3D3B-4B3A-97BE-1D787A0D80EC"
+          }
+        }
+      },
+      {
+        "key": {
           "uuid": "B7ADD65A-0857-4688-B0F4-A2A99709559F"
         },
         "value": {
