@@ -21,6 +21,7 @@
         "id": {
           "uuid": "BB1BF9EB-0958-4826-8ECE-115F549231BB"
         },
+        "name": "AnimationScript",
         "enableOnAwake": false,
         "OwnerLink": {
           "@class": "BindingLink",
